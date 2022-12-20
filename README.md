@@ -24,7 +24,7 @@ A useful CLI application for tracking departments and all of their associated em
 ## Installation Instructions 
 <a name="instr"></a> 
  
->To install this CLI application, clone the project from the associated repo onto your local machine and run npm i in the integrated terminal. 
+>To install this CLI application, clone the project from the associated repo onto your local machine, run npm i in the integrated terminal, use mysql in the terminal to execute schema.sql and seeds.sql, and create a .env file based on the   .envEXAMPLE included in the repo. 
  
 ## Usage information 
 <a name="usage"></a>  
@@ -51,3 +51,5 @@ A useful CLI application for tracking departments and all of their associated em
 >If you have any questions please check the issue for the associated repo at my github account: dcodner24 
 
 >For any additional questions, feel free to contact me at my work email: dccodneer24@gmail.com
+
+>[Video Demo](https://drive.google.com/file/d/1W61AVqx2Kmi8o_5-fIDqP3-V1PCsbYGP/view)
