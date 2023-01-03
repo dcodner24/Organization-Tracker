@@ -1,21 +1,18 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple employee tracker that allows you to view, add, and update employees, roles, and departments.",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "seed": "cd db && node seed.js"
+    "start": "node index"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "asciiart-logo": "^0.2.6",
     "console.table": "^0.10.0",
     "dotenv": "^16.0.3",
-    "fs": "^0.0.1-security",
     "inquirer": "8.2.4",
-    "mysql2": "^2.1.0",
-    "sequelize": "^6.27.0"
+    "mysql2": "^2.1.0"
   }
 }

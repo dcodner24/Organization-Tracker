@@ -1,4 +1,3 @@
-require("console.table");
 const index = require('./lib/index')
 const logo = require("asciiart-logo");
 const logoText = logo({ name: "Welome to the ENCOM Employee Manager" }).render();
