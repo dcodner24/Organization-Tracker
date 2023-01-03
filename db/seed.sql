@@ -1,33 +1,33 @@
-use employees;
+use employees_db;
 
 INSERT INTO department
-    (name)
+    (deptName)
 VALUES
-    ('Sales'),
-    ('Engineering'),
-    ('Finance'),
+    ('Development'),
+    ('Testing'),
+    ('Branding'),
     ('Legal');
 
 INSERT INTO role
     (title, salary, department_id)
 VALUES
-    ('Sales Lead', 100000, 1),
-    ('Salesperson', 80000, 1),
-    ('Lead Engineer', 150000, 2),
-    ('Software Engineer', 120000, 2),
-    ('Account Manager', 160000, 3),
-    ('Accountant', 125000, 3),
-    ('Legal Team Lead', 250000, 4),
+    ('Lead Developer', 100000, 1),
+    ('Developer', 80000, 1),
+    ('Lead Tester', 150000, 2),
+    ('Tester', 120000, 2),
+    ('Branding Manager', 160000, 3),
+    ('Graphic Designer', 125000, 3),
+    ('Legal Manager', 250000, 4),
     ('Lawyer', 190000, 4);
 
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
-    ('John', 'Doe', 1, NULL),
-    ('Mike', 'Chan', 2, 1),
-    ('Ashley', 'Rodriguez', 3, NULL),
-    ('Kevin', 'Tupik', 4, 3),
-    ('Kunal', 'Singh', 5, NULL),
-    ('Malia', 'Brown', 6, 5),
-    ('Sarah', 'Lourd', 7, NULL),
-    ('Tom', 'Allen', 8, 7);
+    ('Kevin', 'Flynn', 1, NULL),
+    ('Alan', 'Bradley', 2, 1),
+    ('Sam', 'Flynn', 3, NULL),
+    ('Program', 'Quorra', 4, 3),
+    ('Edward', 'Dillinger', 5, NULL),
+    ('Program', 'Master Control', 6, 5),
+    ('Program', 'Clu', 7, NULL),
+    ('Program', 'Tron', 8, 7);
