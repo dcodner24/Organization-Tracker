@@ -52,4 +52,4 @@ A useful CLI application for tracking departments and all of their associated em
 
 >For any additional questions, feel free to contact me at my work email: dccodneer24@gmail.com
 
->[Video Demo](https://drive.google.com/file/d/1W61AVqx2Kmi8o_5-fIDqP3-V1PCsbYGP/view)
+>[Video Demo](https://drive.google.com/file/d/1xhdvle62nRIxUWMKH6qcppg1neW30KDF/view)
